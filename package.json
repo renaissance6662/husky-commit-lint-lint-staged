@@ -14,7 +14,7 @@
   "license": "ISC",
   "lint-staged": {
     "src/**/*.js": [
-      "eslint --fix",
+      "eslint --ext .js,.jsx,.ts,.tsx",
       "git add"
     ],
     "*.{js,jsx,less,md,json}": [
