@@ -13,12 +13,9 @@
   "author": "lqy",
   "license": "ISC",
   "lint-staged": {
-    "/*.{js,jsx,json}": [
+    "src/**/*.js": [
       "eslint --fix",
       "git add"
-    ],
-    "*.{js,jsx,less,md,json}": [
-      "prettier --write"
     ]
   },
   "devDependencies": {
