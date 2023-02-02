@@ -13,7 +13,7 @@
   "author": "lqy",
   "license": "ISC",
   "lint-staged": {
-    "src/**/*.js": [
+    "*.js": [
       "eslint --ext .js,.jsx,.ts,.tsx",
       "git add"
     ],
