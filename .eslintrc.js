@@ -2,6 +2,8 @@ module.exports = {
   env: {
     browser: true,
     es2021: true,
+    commonjs: true,
+    amd: true,
   },
   extends: "eslint:recommended",
   overrides: [],

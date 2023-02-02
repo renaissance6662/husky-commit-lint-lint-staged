@@ -14,4 +14,4 @@ const b = (m) => {
 
 index();
 
-a = 1;
+a = 2;
